@@ -1,0 +1,284 @@
+.layout {
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    max-width: 1200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar ul li {
+    border-top: 1px solid rgb(51, 49, 49);
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar a {
+    color: #000;
+    padding-left: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sidebar li {
+    list-style-type: none;
+}
+
+.sidebar img {
+    max-width: 15px;
+    padding-top: 3px;
+    float: right;
+    margin-right: 10px;
+}
+
+.sidebar ul li:last-child {
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 30px;
+    font-style: 20px;
+    font-weight: 400;
+}
+
+.left_sidebar {
+    margin-top: 25px;
+}
+
+.custom_sidebar h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.block_one {
+    display: block;
+    border: 1px solid #000;
+}
+
+.block_one img {
+    max-width: 40px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.block .name {
+    margin: 0;
+}
+
+.coin {
+    font-weight: 700;
+}
+
+.block_two {
+    display: block;
+   margin-top: 20px; 
+   border: 1px solid #000;
+}
+
+.block_two img {
+    max-width: 40px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.block_three {
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+
+.block_three img {
+    max-width: 40px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.block_left {
+    font-size: 12px;
+}
+
+/* ----------------------------------main-------------------------- */
+
+.main {
+    width: 900px;
+    margin-top: 20px;
+}
+
+.block-items {
+    width: 171px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(218, 211, 211);
+}
+
+.item-setka {
+    padding: 4px 5px 0 5px;
+}
+
+button {
+    border: none;
+    color: rgb(136, 135, 135);
+}
+.s {
+    padding: 0 10px;
+}
+.m {
+    padding: 0 7px;
+}
+.l {
+    padding: 0 11px;
+}
+.xl {
+    margin-top: 4px;
+}
+
+.item-color {
+    margin-top: 15px;
+    padding: 0 5px;
+}
+
+.black {
+    border: 1px solid #000;
+    width: 25px;
+    height: 15px;
+    background-color: #000;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gray {
+    border: 1px solid rgb(163, 159, 159);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(163, 159, 159);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.orange {
+    border: 1px solid rgb(255, 124, 2);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(255, 124, 2);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pink {
+    border: 1px solid rgb(255, 2, 179);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(255, 2, 158);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.red {
+    border: 1px solid rgb(255, 2, 2);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(255, 2, 2);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.blue {
+    border: 1px solid rgb(78, 2, 255);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(78, 2, 255);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.green {
+    border: 1px solid rgb(2, 255, 65);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(2, 255, 65);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.white {
+    border: 1px solid rgb(0, 0, 0);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.yellow {
+    border: 1px solid rgb(238, 255, 0);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(238, 255, 0);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pink_rose {
+    border: 1px solid rgb(105, 77, 35);
+    width: 25px;
+    height: 15px;
+    background-color: rgb(105, 77, 35);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo {
+    max-width: 169px;
+    margin-top: 30px;
+}
+
+.items-name {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.items-name a {
+    text-decoration: none;
+    color: #000;
+}
+
+.items-name a:hover {
+    color: rgb(198, 13, 255);
+}
+
+.item-coin {
+    text-align: center;
+    font-size: 11px;
+    padding: 0 5px;
+    color: rgb(160, 160, 160);
+}
+
+.bold {
+    font-weight: 700;
+    color: #000;
+}
